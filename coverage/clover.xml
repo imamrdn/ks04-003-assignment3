@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1665908840246" clover="3.2.0">
+  <project timestamp="1665908840246" name="All files">
+    <metrics statements="151" coveredstatements="149" conditionals="48" coveredconditionals="43" methods="22" coveredmethods="22" elements="221" coveredelements="214" complexity="0" loc="151" ncloc="151" packages="6" files="13" classes="13"/>
+    <package name="ks04-003-assignment3">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      <file name="app.js" path="/home/imamrd/Application/ks04-003-assignment3/app.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="ks04-003-assignment3.controllers">
+      <metrics statements="36" coveredstatements="35" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
+      <file name="photos-controller.js" path="/home/imamrd/Application/ks04-003-assignment3/controllers/photos-controller.js">
+        <metrics statements="18" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+      </file>
+      <file name="users-controller.js" path="/home/imamrd/Application/ks04-003-assignment3/controllers/users-controller.js">
+        <metrics statements="18" coveredstatements="18" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="21" count="9" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="ks04-003-assignment3.helpers">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="hash.js" path="/home/imamrd/Application/ks04-003-assignment3/helpers/hash.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+      <file name="jwt.js" path="/home/imamrd/Application/ks04-003-assignment3/helpers/jwt.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="ks04-003-assignment3.middlewares">
+      <metrics statements="43" coveredstatements="43" conditionals="27" coveredconditionals="26" methods="3" coveredmethods="3"/>
+      <file name="authentication-middleware.js" path="/home/imamrd/Application/ks04-003-assignment3/middlewares/authentication-middleware.js">
+        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+      </file>
+      <file name="error-middleware.js" path="/home/imamrd/Application/ks04-003-assignment3/middlewares/error-middleware.js">
+        <metrics statements="29" coveredstatements="29" conditionals="21" coveredconditionals="20" methods="2" coveredmethods="2"/>
+        <line num="2" count="23" type="stmt"/>
+        <line num="3" count="23" type="stmt"/>
+        <line num="5" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="21" type="cond" truecount="4" falsecount="0"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="20" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="23" type="stmt"/>
+        <line num="36" count="23" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="ks04-003-assignment3.models">
+      <metrics statements="33" coveredstatements="32" conditionals="9" coveredconditionals="6" methods="9" coveredmethods="9"/>
+      <file name="index.js" path="/home/imamrd/Application/ks04-003-assignment3/models/index.js">
+        <metrics statements="20" coveredstatements="19" conditionals="9" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="12" type="cond" truecount="3" falsecount="0"/>
+        <line num="23" count="8" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+      </file>
+      <file name="photo.js" path="/home/imamrd/Application/ks04-003-assignment3/models/photo.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="68" count="4" type="stmt"/>
+      </file>
+      <file name="user.js" path="/home/imamrd/Application/ks04-003-assignment3/models/user.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="68" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="ks04-003-assignment3.routes">
+      <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/home/imamrd/Application/ks04-003-assignment3/routes/index.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+      <file name="photos-router.js" path="/home/imamrd/Application/ks04-003-assignment3/routes/photos-router.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+      <file name="users-router.js" path="/home/imamrd/Application/ks04-003-assignment3/routes/users-router.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
